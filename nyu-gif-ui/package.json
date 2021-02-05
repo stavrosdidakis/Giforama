@@ -1,0 +1,16 @@
+{
+  "name": "p5-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.2",
+    "mqtt": "^2.15.3",
+    "socket.io": "^2.0.4"
+  },
+  "engines": {
+    "node": "6.2.0"
+  }
+}
