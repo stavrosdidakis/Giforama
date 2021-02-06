@@ -14,8 +14,8 @@ function setup() {
   button.style('font-size', '32px');
 
   //Here we don't need to specify localhost, as Heroku will assign it itself
-  socket = io.connect('http://localhost:5001');
-  //socket = io(); //heroku
+  //socket = io.connect('http://localhost:5001');
+  socket = io(); //heroku
 }
 
 function sendMessage() {
